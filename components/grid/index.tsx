@@ -1,6 +1,7 @@
 import React from 'react'
-import { BentoGrid, BentoGridItem } from '../ui/bento-grid'
 import gridItems from '@/constants/grid-items.constants'
+import BentoGridItem from './components/bento-grid-item'
+import { BentoGrid } from '../ui/bento-grid'
 
 function Grid() {
   return (

@@ -1,4 +1,4 @@
-import { BentoGridItemProps } from '@/components/ui/bento-grid'
+import { BentoGridItemProps } from '@/components/grid/components/bento-grid-item'
 
 const gridItems: BentoGridItemProps[] = [
   {
