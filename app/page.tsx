@@ -1,3 +1,4 @@
+import Approach from '@/components/approach'
 import Colleagues from '@/components/colleagues'
 import Experience from '@/components/experience'
 import Grid from '@/components/grid'
@@ -16,6 +17,7 @@ export default function Home() {
         <RecentProjects />
         <Colleagues />
         <Experience />
+        <Approach />
       </div>
     </main>
   )
