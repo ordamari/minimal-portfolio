@@ -11,7 +11,7 @@ import useToggle from '@/hooks/useToggle'
 import confettiAnimationData from '@/data/confetti.json'
 import MagicButton from '@/components/ui/magic-button'
 import { IoCopyOutline } from 'react-icons/io5'
-import email from '@/constants/email.constnat'
+import email from '@/constants/email.constant'
 
 export type BentoGridItemProps = {
   className?: string
