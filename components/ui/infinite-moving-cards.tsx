@@ -4,6 +4,13 @@
 import { cn } from '@/utils/cn'
 import React, { useEffect, useState } from 'react'
 
+export type Testimonial = {
+  quote: string
+  name: string
+  title: string
+  img: string
+}
+
 export const InfiniteMovingCards = ({
   items,
   direction = 'left',
@@ -11,11 +18,7 @@ export const InfiniteMovingCards = ({
   pauseOnHover = true,
   className
 }: {
-  items: {
-    quote: string
-    name: string
-    title: string
-  }[]
+  items: Testimonial[]
   direction?: 'left' | 'right'
   speed?: 'fast' | 'normal' | 'slow'
   pauseOnHover?: boolean
@@ -100,7 +103,11 @@ export const InfiniteMovingCards = ({
               <div className='relative z-20 mt-6 flex flex-row items-center'>
                 <div className='flex gap-1'>
                   <div className='me-3'>
-                    <img src='/profile.svg' alt='profile' />
+                    <img
+                      className='w-12 h-12 rounded-full object-cover bg-slate-800 border border-slate-800'
+                      src={item.img}
+                      alt='profile'
+                    />
                   </div>
                   <div className='flex flex-col gap-1'>
                     <span className=' text-xl leading-[1.6] text-white font-bold'>{item.name}</span>
