@@ -1,6 +1,6 @@
 const technologiesLists = [
-  ['React', 'TypeScript', 'TailwindCSS', ''],
-  ['', 'NodeJS', 'Express', 'MongoDB']
+  ['React', 'TypeScript', 'Next.js', ''],
+  ['', 'NodeJS', 'Express', 'NestJS']
 ]
 
 export default technologiesLists

@@ -3,7 +3,7 @@ import { BentoGridItemProps } from '@/components/sections/grid/components/bento-
 const gridItems: BentoGridItemProps[] = [
   {
     id: 1,
-    title: 'I prioritize client collaboration, fostering open communication ',
+    title: 'Dedicated Full Stack Developer with a focus on user-friendly solutions',
     description: '',
     className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
     imgClassName: 'w-full h-full',
@@ -13,7 +13,7 @@ const gridItems: BentoGridItemProps[] = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: 'Experienced in testing new technologies',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
@@ -33,7 +33,7 @@ const gridItems: BentoGridItemProps[] = [
   },
   {
     id: 4,
-    title: 'Tech enthusiast with a passion for development.',
+    title: 'Leveraging design patterns for maintainable code',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
     imgClassName: '',
@@ -44,8 +44,8 @@ const gridItems: BentoGridItemProps[] = [
 
   {
     id: 5,
-    title: 'Currently building a JS Animation library',
-    description: 'The Inside Scoop',
+    title: 'Tech enthusiast with a passion for development',
+    description: 'Always looking to improve and innovate',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
     titleClassName: 'justify-center md:justify-start lg:justify-center',
