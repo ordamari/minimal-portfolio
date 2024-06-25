@@ -15,7 +15,12 @@ const projects: ProjectCardProps[] = [
     title: 'Three.js Portfolio',
     des: 'I developed a unique and visually striking portfolio using cutting-edge web technologies. By leveraging React Three Fiber, I rendered 3D elements and scenes within the portfolio. Additionally, I utilized Framer Motion to create stunning and fluid animations for an enhanced user experience. This project showcases my ability to create advanced web applications with modern front-end technologies, delivering high-quality, visually impressive user interfaces.',
     img: '/projects/portfolio.png',
-    iconLists: ['/technologies-icons/re.svg', '/technologies-icons/three.svg', '/technologies-icons/sass.svg'].sort(),
+    iconLists: [
+      '/technologies-icons/fm.svg',
+      '/technologies-icons/re.svg',
+      '/technologies-icons/three.svg',
+      '/technologies-icons/sass.svg'
+    ].sort(),
     link: 'https://ordamari.github.io/Portfolio/'
   },
   {

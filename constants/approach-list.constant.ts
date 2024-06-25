@@ -1,17 +1,17 @@
-import { ApproachItemProps } from '@/components/approach/components/approach-item'
+import { ApproachItemProps } from '@/components/sections/approach/components/approach-item'
 
 const approachList: ApproachItemProps[] = [
   {
-    title: 'Planning & Strategy',
+    title: 'Design & Prototyping',
     animationSpeed: 5.1,
     containerClassName: 'rounded-3xl overflow-hidden bg-emerald-900',
     buttonText: 'Phase 1',
-    des: "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+    des: 'Collaborate to design and prototype your web solutions using tools like Figma and Sketch. Plan out the structure, navigation, and visual aesthetics.'
   },
   {
-    title: 'Development & Progress Update',
+    title: 'Development & Testing',
     animationSpeed: 3,
-    des: 'Once we agree on the plan, I cue my lofi playlist and dive intocoding. From initial sketches to polished code, I keep you updatedevery step of the way.',
+    des: 'Develop the application using modern frameworks and libraries such as React.js and Node.js. Perform rigorous testing using Jest and Storybook to ensure quality and reliability.',
     buttonText: 'Phase 2',
     containerClassName: 'rounded-3xl overflow-hidden bg-black',
     colors: [
@@ -21,8 +21,8 @@ const approachList: ApproachItemProps[] = [
     dotSize: 2
   },
   {
-    title: 'Development & Launch',
-    des: "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
+    title: 'Deployment & Optimization',
+    des: 'Translate designs into functional code and deploy using CI/CD pipelines. Optimize for performance, accessibility, and security to ensure a seamless user experience.',
     buttonText: 'Phase 3',
     animationSpeed: 3,
     containerClassName: 'rounded-3xl overflow-hidden bg-sky-600',
